@@ -69,11 +69,6 @@ Equal    = (\x.(\y. ((And ((Leq x) y)) ((Leq y) x))));
 Y = (\f.((\x.(f(x x)))(\x.(f(x x)))));
 
 ###################################################################
-# Feel free to add any other helper definitions you need.
+# Exercises can be written here. 
 
-# 1. Fib
-#Fib = (\n. (Fst ((n (\p.((Pair (Snd p)) ((Plus (Fst p)) (Snd p))))) ((Pair 0) 1))));
 
-Fib = (\n. (F (Gib n)));
-F = (\m. G);
-G = (\m. True);
